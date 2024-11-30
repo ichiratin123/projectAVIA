@@ -1,0 +1,94 @@
+#illustration {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+li {
+    margin: 5px 0;
+}
+strong {
+    color: black;
+}
+
+#myChart {
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card #info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card #id, .card #name {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.card #name{
+    text-decoration: underline;
+}
+
+.card .img{
+    border-bottom: 2px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    font-size: 20px;
+}
+input{
+    margin: 2px;
+    height: 15px;
+}
+
+button{
+    width: 100px;
+    height: 20px;
+    background-color: #bfbfbf;
+}
+button:hover{
+    background-color: #dadada ;
+}
+a:active{
+    text-decoration: none;
+    color: black;
+}
+
+#form{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+}
